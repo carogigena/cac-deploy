@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res)=> {
-    res.send("CaC Deploy Prueba!!");
+    res.send("CaC Deploy Re!!");
 });
 
 const PORT = process.env.PORT || 3000;
